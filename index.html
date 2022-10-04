@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Blog de Cocina</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#!">Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder">Bienvenido a este blog de Cocina!</h1>
+                <p class="lead mb-0">Las mejores recetas de internet</p>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <!-- Entradas en el blog -->
+            <div class="col-lg-8">
+                <!-- Columna anidada para posteos-->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Entrada 1-->
+                        <div class="card mb-4">
+                            <a href="pages/recetas/BandejaPaisa.html"><img class="card-img-top" src="assets/Img/BandejaPaisa.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">22 de Enero de 2019</div>
+                                <h2 class="card-title h4">Bandeja Paisa</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="pages/recetas/BandejaPaisa.html">Seguí leyendo la receta</a>
+                            </div>
+                        </div>
+                        <!-- Entrada 2-->
+                        <div class="card mb-4">
+                            <a href="pages/Recetas/HamburguesaDeTernero.html"><img class="card-img-top" src="assets/Img/Hamburguesa.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">15 de Diciembre de 2018</div>
+                                <h2 class="card-title h4">Hamburguesa de Ternero</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="pages/Recetas/HamburguesaDeTernero.html">Seguí leyendo la receta</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Entrada 3-->
+                        <div class="card mb-4">
+                            <a href="pages/Recetas/DesayunoBritanico.html"><img class="card-img-top" src="assets/Img/desayunobritanico.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">28 de Noviembre de 2018</div>
+                                <h2 class="card-title h4">Desayuno Británico Tradicional</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+                                <a class="btn btn-primary" href="pages/Recetas/DesayunoBritanico.html">Seguí leyendo la receta</a>
+                            </div>
+                        </div>
+                        <!-- Entrada 4-->
+                        <div class="card mb-4">
+                            <a href="pages/Recetas/SopaDeArvejas.html"><img class="card-img-top" src="assets/Img/sopadearvejas.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted">12 de Noviembre de 2018</div>
+                                <h2 class="card-title h4">Sopa de Arvejas y Cebolla</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
+                                <a class="btn btn-primary" href="pages/Recetas/SopaDeArvejas.html">Seguí leyendo la receta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Paginación -->
+                <nav aria-label="Pagination">
+                    <hr class="my-0" />
+                    <ul class="pagination justify-content-center my-4">
+                        <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Más Nuevos</a></li>
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Más viejos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+                <!-- Search widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Buscá una receta en el sitio</div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Probá con el nombre del plato" aria-label="Probá con el nombre del plato" aria-describedby="button-search" />
+                            <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Mi sitio web 2022</p></div>
+    </footer>
+    <!-- JS de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
